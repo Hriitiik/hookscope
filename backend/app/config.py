@@ -8,6 +8,7 @@ class Settings(BaseSettings):
 
     env: str = "dev"
     max_body_bytes: int = 1_048_576
+    database_url: str = ""
 
 
 @lru_cache
